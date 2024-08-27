@@ -1,7 +1,7 @@
-function generarBisisesto(numero){
-  if(numero === 2000)
+function generarBisiesto(numero){
+  if(numero % 400 === 0)
     return true;
 
 }
 
-export default generarBisisesto;
+export default generarBisiesto;
