@@ -21,6 +21,13 @@ describe("Bisiesto", () => {
   it("Deberia generar TRUE para cualquier año divisible entre 4 pero no entre 100", () => {
     expect(generarBisiesto(2012)).toEqual(true);
   });
-  
+  it("Deberia generar FALSE para un año que no es divisible entre 4 como el 2017", () => {
+    expect(generarBisiesto(2017)).toEqual(false);
+  });
+
+  it("Deberia generar FALSE para cualquier año que no es divisible entre 4", () => {
+    expect(generarBisiesto(2018)).toEqual(false);
+  });
+
 
 });

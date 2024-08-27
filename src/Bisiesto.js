@@ -7,6 +7,7 @@ function generarBisiesto(numero){
     return true;
   if(numero % 4 !== 0)
     return false;
+  
 }
 
 export default generarBisiesto;
